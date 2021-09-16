@@ -32,6 +32,12 @@ matrix:
     - php: 8.0
       dist: bionic
       env: COMPOSER_OPTS="--prefer-lowest"
+    - php: 8.1
+      dist: bionic
+      env: COMPOSER_OPTS=""
+    - php: 8.1
+      dist: bionic
+      env: COMPOSER_OPTS="--prefer-lowest"
     - php: nightly
       dist: bionic
       env: COMPOSER_OPTS="--ignore-platform-reqs"
